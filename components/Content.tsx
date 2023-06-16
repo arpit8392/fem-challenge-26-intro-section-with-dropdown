@@ -6,7 +6,7 @@ const Content = () => {
 			<h1 className='text-4xl font-bold -tracking-[0.5px] text-offBlack md:max-w-lg md:text-[80px]/[80px] md:-tracking-[1.11px]'>
 				Make remote work
 			</h1>
-			<p className='max-w-sm font-medium text-mediumGray md:max-w-lg md:text-lg'>
+			<p className='max-w-sm font-medium text-mediumGray md:text-lg'>
 				Get your team in sync, no matter your location. Streamline processes,
 				create team rituals, and watch productivity soar.
 			</p>
