@@ -3,8 +3,8 @@ import Link from 'next/link'
 const Content = () => {
 	return (
 		<div className='flex flex-col items-center gap-4 md:items-start md:gap-12'>
-			<h1 className='text-4xl font-bold -tracking-[0.5px] text-offBlack md:max-w-lg md:text-[80px]/[80px] md:-tracking-[1.11px]'>
-				Make remote work
+			<h1 className='text-4xl font-bold -tracking-[0.5px] text-offBlack md:text-[80px]/[80px] md:-tracking-[1.11px]'>
+				Make <span className='block'>remote work</span>
 			</h1>
 			<p className='max-w-sm font-medium text-mediumGray md:max-w-lg md:text-lg'>
 				Get your team in sync, no matter your location. Streamline processes,
