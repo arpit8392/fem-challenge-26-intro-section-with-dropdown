@@ -6,14 +6,20 @@ const IllustrationImage = () => {
 	return (
 		<div className='md:order-1'>
 			<Image
-				src={Mobile}
+				src={'/images/image-hero-mobile.png'}
+				height={282}
+				width={375}
 				alt=''
-				className='block w-auto object-contain md:hidden'
+				priority
+				className='block md:hidden'
 			/>
 			<Image
-				src={Desktop}
+				src={'/images/image-hero-desktop.png'}
+				height={640}
+				width={480}
 				alt=''
-				className='hidden w-auto object-contain md:block'
+				priority
+				className='hidden md:block'
 			/>
 		</div>
 	)
