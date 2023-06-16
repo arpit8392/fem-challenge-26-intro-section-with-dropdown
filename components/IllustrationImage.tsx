@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import Desktop from '@/public/images/image-hero-desktop.png'
-import Mobile from '@/public/images/image-hero-mobile.png'
 
 const IllustrationImage = () => {
 	return (
