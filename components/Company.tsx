@@ -14,7 +14,7 @@ const CompanyDesktop = (
 	<Popover className='relative'>
 		{({ open }) => (
 			<>
-				<Popover.Button className='flex items-center gap-x-2 text-sm font-medium text-mediumGray hover:text-offBlack'>
+				<Popover.Button className='flex items-center gap-x-2 text-sm font-medium text-mediumGray outline-none hover:text-offBlack'>
 					Company
 					<Image
 						src={open ? ArrowUpIcon : ArrowDownIcon}
@@ -53,7 +53,7 @@ const CompanyMobile = (
 	<Popover className='relative'>
 		{({ open }) => (
 			<>
-				<Popover.Button className='flex items-center gap-x-4 font-medium text-mediumGray hover:text-offBlack'>
+				<Popover.Button className='flex items-center gap-x-4 font-medium text-mediumGray outline-none hover:text-offBlack'>
 					Company
 					<Image
 						src={open ? ArrowUpIcon : ArrowDownIcon}
