@@ -9,7 +9,7 @@ const IllustrationImage = () => {
 				width={375}
 				alt=''
 				priority
-				className='block md:hidden'
+				className='block max-w-full md:hidden'
 			/>
 			<Image
 				src={'/images/image-hero-desktop.png'}
@@ -17,7 +17,7 @@ const IllustrationImage = () => {
 				width={480}
 				alt=''
 				priority
-				className='hidden md:block'
+				className='hidden max-w-full md:block'
 			/>
 		</div>
 	)
