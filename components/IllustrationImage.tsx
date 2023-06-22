@@ -17,7 +17,7 @@ const IllustrationImage = () => {
 				width={480}
 				alt=''
 				priority
-				className='hidden max-w-full md:block'
+				className='hidden max-w-full md:block max-h-full'
 			/>
 		</div>
 	)
