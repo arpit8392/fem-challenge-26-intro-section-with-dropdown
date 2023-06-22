@@ -43,7 +43,10 @@ export default function Header() {
 				</div>
 
 				<div className='lg:hidden'>
-					<button type='button' onClick={() => setMobileMenuOpen(true)}>
+					<button
+						type='button'
+						className='outline-none'
+						onClick={() => setMobileMenuOpen(true)}>
 						<span className='sr-only'>Open main menu</span>
 						<Image src={MenuIcon} alt='' className='w-auto object-contain' />
 					</button>
@@ -59,7 +62,10 @@ export default function Header() {
 				<Dialog.Panel className='fixed inset-y-0 right-0 z-10 flex w-2/3 flex-col justify-between overflow-y-auto bg-white '>
 					<div className='p-5'>
 						<div className='flex items-center justify-end'>
-							<button type='button' onClick={() => setMobileMenuOpen(false)}>
+							<button
+								type='button'
+								className='outline-none'
+								onClick={() => setMobileMenuOpen(false)}>
 								<span className='sr-only'>Close menu</span>
 								<Image
 									src={CloseIcon}
